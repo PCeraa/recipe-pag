@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: lightgoldenrodyellow;
+}
+
+.main {
+    border-radius: 20px;
+    padding: 30px;
+    margin: auto;
+    background-color: white;
+    max-width: 450px;
+}
+
+.preparation {
+    background-color: lightpink;
+    padding: 15px;
+    border-radius: 20px;
+} 
+
+.main ul {
+    line-height: 2;
+    list-style-position: inside;
+}
+
+h1, p {
+    padding: 10px;
+}
+
+.ingredients {
+    padding: 10px;
+}
+
+.instructions {
+    padding: 10px;
+}
+
+.imagens {
+    max-width: 380px;
+    border-radius: 20px;
+}
+
+.valores {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    font-weight: bold;
+    color: brown;
+}
