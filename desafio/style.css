@@ -46,9 +46,13 @@ h1, p {
     border-radius: 20px;
 }
 
-.valores {
+/*.valores {
     display: flex;
     justify-content: space-between;
+}*/
+
+.nutrition {
+    padding: 10px;
 }
 
 span {
