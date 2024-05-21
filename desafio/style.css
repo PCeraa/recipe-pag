@@ -70,15 +70,10 @@ h2 > span {
 
 .imagens {
     display: block;
-    max-width: 450px;
+    max-width: 480px;
     border-radius: 20px;
     margin: auto;
 }
-
-/*.valores {
-    display: flex;
-    justify-content: space-between;
-}*/
 
 .nutrition {
     padding: 10px;
