@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family:'Outifit';
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:'young-serif';
+    src: url(fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
 body {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -15,14 +25,18 @@ body {
     padding: 30px;
     margin: auto;
     background-color: white;
-    max-width: 450px;
+    max-width: 550px;
 }
 
 .preparation {
-    background-color: lightpink;
+    background-color: rgba(255, 182, 193, 0.199);
     padding: 15px;
     border-radius: 20px;
 } 
+
+.preparation h2 {
+    color: rgb(88, 1, 88);
+}
 
 .main ul {
     line-height: 2;
@@ -31,6 +45,19 @@ body {
 
 h1, p {
     padding: 10px;
+}
+
+p {
+    font-family:'Outifit';
+}
+
+h2 {
+    font-family:'young-serif';
+    font-weight: lighter;
+}
+
+h2 > span {
+    font-weight: lighter;
 }
 
 .ingredients {
@@ -42,8 +69,10 @@ h1, p {
 }
 
 .imagens {
-    max-width: 380px;
+    display: block;
+    max-width: 450px;
     border-radius: 20px;
+    margin: auto;
 }
 
 /*.valores {
@@ -56,6 +85,27 @@ h1, p {
 }
 
 span {
+    color: brown;
+}
+
+.leftposition, .rightposition {
+    padding: 10px 0px;
+    display: inline-flex;
+    width: 40%;
+}
+
+.a {
+    padding-left: 10px;
+}
+
+.leftposition {
+    padding-right: 50%;
+    text-align: left;
+}
+
+.rightposition {
     font-weight: bold;
     color: brown;
+    padding-left: 35%;
+    text-align: right;
 }
